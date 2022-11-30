@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.PageNotFound {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.t1 {
+  font-size: 3rem;
+  animation: scrollText 15s linear infinite;
+  color: rgb(228, 54, 54);
+}
+
+.t2 {
+  font-size: 2rem;
+}
+
+.button {
+  background: rgb(228, 54, 54);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.button:hover {
+  background: rgb(228, 54, 54);
+}
